@@ -7,4 +7,5 @@ function logEvt ( el, type ) {
 button.addEventListener('mousedown', function() {logEvt('button', 'mousedown')});
 button.addEventListener('click', function() {logEvt('button', 'click')});
 button.addEventListener('mouseup', function() {logEvt('button', 'mouseup')});
+button.addEventListener('mouseup', function() {logEvt('button', 'blur')});
 button.addEventListener('focusout', function() {logEvt('button', 'focusout')});
